@@ -30,3 +30,8 @@ If that is the case, use a lower Java version. An easy way to do that is with th
 
     docker run --rm -it -v "$(pwd)":/usr/src/mymaven -v /tmp/$USER/.m2:/root/.m2 -w /usr/src/mymaven maven:3.8.2-openjdk-11 mvn clean package
 
+## Sources
+
+* http://teavm.org/docs/flavour/custom-components.html
+* https://github.com/konsoletyper/teavm-flavour-minesweeper
+
