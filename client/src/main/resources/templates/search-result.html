@@ -1,9 +1,14 @@
 <?nl.markv.demo.javafullstack.client.SearchResultComponent?>
+<?use hello:nl.markv.demo.javafullstack.client.components?>
 <div id="search-result">
-    <std:foreach var="result" in="results()">
-        <li>
-            <html:text value="result"/>
-        </li>
-    </std:foreach>
+    <ul>
+        <std:foreach var="result" in="results()">
+            <li>
+                <html:text value="result"/>
+            </li>
+        </std:foreach>
     </ul>
+
+    <div>Custom component follows</div>
+    <hello:say-hello/>
 </div>
