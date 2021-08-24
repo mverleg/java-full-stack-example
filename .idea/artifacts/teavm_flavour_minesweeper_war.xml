@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="teavm-flavour-minesweeper-0.1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="teavm-flavour-minesweeper:war exploded" />
     </root>
   </artifact>
