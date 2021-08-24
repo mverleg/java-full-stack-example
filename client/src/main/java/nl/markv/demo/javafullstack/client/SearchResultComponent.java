@@ -15,16 +15,15 @@
  */
 package nl.markv.demo.javafullstack.client;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.teavm.flavour.templates.BindTemplate;
 
-@BindTemplate("templates/search.html")
-public class SearchComponent {
+@BindTemplate("templates/search-result.html")
+public class SearchResultComponent {
 
-    public String getPlaceholder() {
-        return "Search...";
-    }
-
-    public void search() {
-        System.out.println("searching...");
+    public List<String> results() {
+        return Arrays.asList("Apple", "Banana", "Melon");
     }
 }
