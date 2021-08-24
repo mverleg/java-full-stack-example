@@ -23,4 +23,8 @@ public class SearchComponent {
     public String getPlaceholder() {
         return "Search...";
     }
+
+    public void search() {
+        System.out.println("searching...");
+    }
 }

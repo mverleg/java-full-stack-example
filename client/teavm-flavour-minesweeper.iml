@@ -12,6 +12,13 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="teavm-js" name="TeaVM (JS)">
+      <configuration>
+        <option name="mainClass" value="nl.markv.demo.javafullstack.client.Index" />
+        <option name="skipped" value="true" />
+        <option name="targetDirectory" value="$MODULE_DIR$/target/generated/js/teavm" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/target/classes" />
