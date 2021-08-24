@@ -13,18 +13,14 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.teavm.flavour.minesweeper;
+package nl.markv.demo.javafullstack.client;
 
-public class Cell {
-    CellState state = CellState.UNKNOWN;
-    boolean mine;
-    int minesAround;
+import org.teavm.flavour.templates.BindTemplate;
 
-    public CellState getState() {
-        return state;
-    }
+@BindTemplate("templates/search.html")
+public class SearchComponent {
 
-    public int getMinesAround() {
-        return minesAround;
+    public String getPlaceholder() {
+        return "Search...";
     }
 }
