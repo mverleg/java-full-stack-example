@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-full-stack-example.iml" filepath="$PROJECT_DIR$/.idea/java-full-stack-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/java-fullstack-client.iml" filepath="$PROJECT_DIR$/client/java-fullstack-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/teavm-flavour-minesweeper.iml" filepath="$PROJECT_DIR$/client/teavm-flavour-minesweeper.iml" />
     </modules>
   </component>

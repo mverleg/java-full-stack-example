@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-fullstack-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java-fullstack-client" target="11" />
       <module name="teavm-flavour-minesweeper" target="11" />
     </bytecodeTargetLevel>
   </component>
