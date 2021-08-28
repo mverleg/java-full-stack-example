@@ -2,3 +2,10 @@
 #content {
     padding-top: 1em;
 }
+
+.result-type {
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    width: 3%;
+}
