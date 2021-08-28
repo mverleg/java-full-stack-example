@@ -1,16 +1,9 @@
 <?nl.markv.demo.javafullstack.client.SearchInputComponent?>
 <div id="search-box">
     <form class="form-inline">
-        <div class="form-group mb-2">
-            <input type="text" attr:placeholder="getPlaceholder()"/>
-        </div>
-        <button type="submit" event:click="search()" class="btn btn-primary mb-2">Search</button>
-
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <span class="input-group-text" id="basic-addon2">@example.com</span>
-            </div>
+        <div class="input-group">
+            <input type="text" class="form-control" attr:placeholder="getPlaceholder()" aria-label="Search an option, or type an action" autofocus>
+            <button class="btn btn-outline-secondary" type="button" type="submit" event:click="execute()">go ⇨</button>
         </div>
     </form>
 </div>

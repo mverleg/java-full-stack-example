@@ -24,7 +24,7 @@ public class SearchInputComponent {
         return "Search...";
     }
 
-    public void search() {
+    public void execute() {
         System.out.println("searching...");
     }
 }
